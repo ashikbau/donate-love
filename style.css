@@ -24,7 +24,7 @@ h1{
   
     
     
-     .donate-anchor{
+     #donate-anchor{
         text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     padding: 10px 10px;
@@ -32,8 +32,9 @@ h1{
     font-weight: 700;
     border-radius: 5px;
     background-position: center;
+}
     
-    }
+
     #today-donation{
         text-align: center;
         
@@ -41,13 +42,15 @@ h1{
     .donate-amount{
         display: flex;
         margin-bottom: 150px;
-        width: 600px;
+        width: 400px;
         height: 150px;
         margin: 10px 20px 10px 20px;
-        padding: 10px;
+        padding: 10px 200px;
         border-left: 50px;
         border-right: 50px;
-        
+        float: none;
+        background-position: center;
+    
         
     }
     #other-amount{
@@ -58,11 +61,16 @@ h1{
   #donate-tk{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
-    padding: 10px 10px;
+    padding: 20px 200px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
-    background-position: center;
+    margin: 10px 20px 10px 20px;
+    border-left: 50px;
+    border-right: 50px;
+    float: center;
+    
+    
   }
 .donate-plan{
     text-align: center;
@@ -102,3 +110,9 @@ h1{
     
  }
   
+#sub-item{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
